@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Portfolio of the Future IT Experts</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0 5% 0 5%;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+
+    .image-column {
+      flex: 1 1 30%;
+      box-sizing: border-box;
+      position: relative; /* Positioning context for absolute children */
+      overflow: hidden; /* Ensures the text and button are clipped within the image */
+    }
+
+    .image-column img {
+      display: block;
+      transition: transform 0.3s ease; /* Smooth image transition */
+  width: 400px;
+  height: 500px;
+  object-fit: cover; /* Ensures the image covers the set dimensions without distorting */
+    }
+
+    /* Hover effect for image scaling */
+    .image-column:hover img {
+      transform: scale(1.1); /* Slight zoom effect on hover */
+    }
+
+    /* Hide the text and button by default */
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: opacity 0.3s ease; /* Smooth fade-in effect */
+      padding: 10px;
+    }
+
+    .image-column:hover .overlay {
+      opacity: 1; /* Show overlay on hover */
+    }
+
+    .overlay h3 {
+      margin: 0;
+      font-size: 1.7rem;
+      text-align: center;
+    }
+
+    .overlay a {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: background-color 0.3s ease;
+    }
+
+    .overlay a:hover {
+      background-color: #0056b3; /* Darker shade of the button */
+    }
+
+    /* Ensure responsiveness for smaller screens */
+    @media (max-width: 768px) {
+      .image-column {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+<h3>Digital Portfolio of the Future IT Experts - BSIT 1A (as of 12/08/2024 - 3PM)</h3>
+  <div class="image-container">
+
+<div class="image-column">
+     <img src="https://lh3.googleusercontent.com/HzBtNe_pot9jO14nkgQnGJqsNyk1SOQj_LlYQbQhzWkHvEPXWIfeR5d8GjKEWmPt_2l1tt89qe0fJaHlkqPFtUAyfPG2OV_nkmEbpjGmKTZVwKkJViiEehCMNYvpta4MQQ=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>Ashley Pamela Acis</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/acis-ashley-pamela-a?usp=sharing" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh5.googleusercontent.com/bFpRgCXXwsK54Z6OY3P8cBgGxtmrwcmkW0cIQVVkhMce8aWDgQ3PewU0qDMPwQ7I1HyWo-4RuVfA5TANnD77xu7GO2hFWjQ9jqJxxJdHrgjrAB8CfdQg9c9wUbRG4BTlEg=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>Leonah Aquino</h3>
+        <a href="https://sites.google.com/view/leonahaquinofinalrequirement/home" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>Hans Valentin Banayat</h3>
+        <a href="#" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh4.googleusercontent.com/ccfVbZ9-oIwXcpybHZIvC3QjNFEG1w3pJru-H73bArdxjhBTiJdnzhXwaVCL5Bx1UaqVcyMsY-sA673JLgaMnOU=w1280" class="CENy8b" role="img" style="width: 100%; margin: 0% 0 0% 0%">
+      <div class="overlay">
+        <h3>Noreen Bautista</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/bautista-digital-portfolio?usp=sharing" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh5.googleusercontent.com/uFhIssiRYX3AxZ6nq6Mxr-iDo6gcSFCsdCJ-a_8HcveARxrmKZj8uwAzOEQNWj85rlrgEaVhxMv9Oj7hnch9TP8=w1280" class="CENy8b" style="width: 100%; margin: 0% 0 0% 0%">
+      <div class="overlay">
+        <h3>Jude Bernardo</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/digital-portfolio/home" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh3.googleusercontent.com/-F1OOiGgw1xiaXqyiHX7TrdcKNglpI5MLfvhXdV1lVHT-Zj85jDNji1MTJD_k52aVAEThc_q2OJk-wn5agQ37OE3BpbUhmzqBrJ_tkvMi0btI8ooaqludjp_e-Py0zvPDA=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>Jerome Borja</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/borja-digital-portfolio?usp=sharing" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>Trixie Butantan</h3>
+        <a href="#" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+    <img src="https://lh6.googleusercontent.com/fHyI09Lgm4Qo532GTKxPU_9vhU9rhcw8OO5KgHZ_apA_vkrS1K1ags3VfsSeymANgdP8MpLPfl1zVzfGRATGoGkQUiWScbzeaPiO-7mxEo-69shTjvXFE4HI4nEZi2r77A=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>Renier Camaso</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/camaso-digital-portfolio?usp=sharing" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+    <img src="https://lh6.googleusercontent.com/8LPY_z8lauGzow70DC0IxLGzJzQ4Xrf1F_4Ogyp_7mbHo_gLwfkfwxip5kEARmQ7St4nwGnzRcmID6UyvXczM3BougXqBLPCi4GOLQE46U8Ibw_8IDrHvSa3MWkajXP9=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>Red Ashlei Celino</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/celinoredashlei/home" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>Aljun Consigo</h3>
+        <a href="#" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>Jude Marvin De Guzman</h3>
+        <a href="#" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh5.googleusercontent.com/Kkvwq2G0Yj9jFoHWIM9aknKUpXkK7CGUy6_0JNmc6gemu0WfAgfpGpzTOLxooKUQsCSh921RpNK00DeSOJU8JtQ=w1280" class="CENy8b" role="img" style="width: 100%; margin: 0% 0 0% 0%">
+      <div class="overlay">
+        <h3>RICSIE RHEY DELACRUZ</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/ricsiedelacruz/home-page" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>ALEJAN GUIAMADEL</h3>
+        <a href="#" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh4.googleusercontent.com/WX4LtO5Y8X7rmZHLkuP4XqINQv7hhSClTveYu_E-axgNKCVyxChHzMgWn0FFdsCexlbI6-WfgjK3mr1ruquJu74mI7tUakWg4fgeKq7fTN5hJYldpa3jp5H96FJiVb2aeA=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>Paolo Loyola</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/loyoladigitalportfolio/home" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>Emmanuel Rayco</h3>
+        <a href="#" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh3.googleusercontent.com/pAw-_jM7tX9DRkihbcYrgqsryyqLdo0D9lPlqRc8O0iPNjNCinHy6dsE2_OaV7NACw1QRBmfa-4u5vTseI07mdxXyfgOAO-GWu7k5RBmbZoFbWiEqxnBcYS2cHkprIpf0w=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>DianneClaire Redulosa</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/redulosadianneclaire/home" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>GilbertJear Regala</h3>
+        <a href="#" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh4.googleusercontent.com/8HQKE7TzVoCKWZ98d0bIt2QzMXljukJ89NCICqVqSG7nDxo8zw66d18og8atV8_J9tcV8XpGgudT4pQh0NZH9bDb2xpWFdDdG-PnOBiQHVVhUxHuy-Sq2uJW1LhmIMkBYA=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>RenzChristian Regidor</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/regidorrenzchristianr" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>JadeMark Retiza(NO IMAGE)</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/retiza-portfolioii/home?authuser=2" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>TrishaJane Revilla</h3>
+        <a href="#" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh6.googleusercontent.com/ep8Vs7dMzz-SDyVuWVt98CFKRMs2UCBgWsVN_bFINHCDaAxc1tpENVibh1siR0N4pNrWiddHV9ZzZbgmZeHfC_9RtcK_lkZZc_AP0lXaafC-KTliNYL9tCyio0ybSipeXQ=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>Kate Reyes</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/reyesdigitalportfolio/home" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>JhonGenesis Rillera</h3>
+        <a href="#" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>KarylleCzyraS Rinonos</h3>
+        <a href="#" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh3.googleusercontent.com/YKB2tbrOXeJkszn7QBDtMaLMlm5duVvri20YZocwFAYk76mWRnEh0Rw33cVvswr668GsxZaCpZR8o28H1gkh5057s8_aTx8zd1ZAGLv7qroMvybFj3S3WkzGYDZNJHZXog=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>MarkLawrence Rodil</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/rodilmarklawrence/home?authuser=0" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>VanesaJoyce Rodriguez</h3>
+        <a href="#" target="_blank">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>Krhistan Rosel(ACCESS DENIED)</h3>
+        <a href="https://drive.google.com/file/d/1VWDlCav0oWj04-CPFN1bXQ3SNi10333-/view?usp=drivesdk">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh6.googleusercontent.com/X7K7WptNWuTihUrMhcdx3savKxw1HnQ2IAReXm2c-FgcW3g7Q-3Sc2Qar7ArknCwmk0-MYWHq_4a6_gIDPFGjHNYrDAKfobiJNiCt3MgourPW9xRoqoOk90ckUNLh6WwEQ=w1280" class="CENy8b" role="img" style="width: 100%; margin: -0.1259424878% 0 -0.1259424878% 0%">
+      <div class="overlay">
+        <h3>PielFlorence Sabayan</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/sabayandigitialportfolio/home">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh3.googleusercontent.com/g7c3v9_agDp4E9zQFHntkYBy8A4cvOhFy4MsgQ8kouJ8lZZIh1LifG5yypCljbqj40DVJzbJ_elN9GLzhGRbiEkDbd-3kqxMrygPPC0ee1Qa3_PTg6kjZ7ceLbv0SkffTA=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>Joyssie Sailo</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/sailojoyssiedigitalportfolio/home?authuser=0">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh6.googleusercontent.com/xLyu8vz1xK3oPpLTH8q_JZ4PMywRq95BwCaOKWScRuzXzs9B20mlaencOCwJTjTUmIIPH435wzlWE8x9ncDQYvARrQy-sQa_fCkv-ZmXoq26FEkN8E8e7lX1MbmKYXG8zg=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>Erwin Saladas</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/saladas-digitalportfolio/home">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh6.googleusercontent.com/8ZJXl09ozqoJRizQOH1gBKxEdr78vvSKB662a_2OkxpXRNpC2pSSpx1KMP1iz0ONJ4ZAqPWvcaEPhufk5RPBFdyWA3sGMAWCJToaE6o2hMVV2sXVUf6Tw413oe96-Hty-g=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>Merjhon Salvadora</h3>
+        <a href="https://sites.google.com/view/salvadora-digital-portfolio/home?authuser=0">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>ErosMirko Sarabia</h3>
+        <a href="#">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>JhonReyver Say-a</h3>
+        <a href="#">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh5.googleusercontent.com/jvJhTxFsH31GLYmt6u_o9xfDLeOLe-jyoiABrNMBqFll9vIyBqqDfYX2OGECkUEo8ij2V2fcGpFldMOzdPaWIH6H99vREXfrQvMljG7DDx_u-nqBmriol0AP_Ee2UGPv-w=w1280" class="CENy8b" role="img" style="width: 100.0000029802%; margin: 0% 0 0% -0.0000014901%">
+      <div class="overlay">
+        <h3>Jessa Seprioto</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/sepriotojessa/home">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh3.googleusercontent.com/HettdxLPssxOhLTxQKKWiSQ87k1_dBqKJHBtZM-eqzdCT4RZpmb46V328XSSXwdUIhP7kbBoC1NpEJEKeOMqcELZJ80TB5yAb486qvKJy4VhyJ0bfUF76xDHG5B_-ERovA=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>Rhea Serano</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/serano-rhea-r/home">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh3.googleusercontent.com/eL7IPVHWobjsEDMCDnIdn20sCaI6xDzWnOvdirCcSpsrwaz8Ie2S-7R39e2A289DCzLpnmuw58dlpCXN-LhL1Cs8d64BqM2AqobJ36FCb96Rh-MWgsCWnXU-LFpvc9uYRw=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>NeilFrancis Silla</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/sillaneilfrancisr?usp=sharing">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>Mitch Silvestre(UNPUBLISHED)</h3>
+        <a href="https://sites.google.com/d/1yk72oZ0FfP5TVSQxOVGyt9hSEgdQ5NKc/edit">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>AngeloNaph Soberano</h3>
+        <a href="#">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>RhadnieDeanne Sunico</h3>
+        <a href="#">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh6.googleusercontent.com/ucJn_7-Lb3mr87lZNjtoqMaA7NJcVUm4eQIG38I6WJUMLV_p0QfJAzEfFpcV_9bpE33kL5uhOP0RRs7P9cD30K5L6h-tdHUNEHp3xFuBpAdomR6j2pkj70ftSWzFJFo4og=w1280" class="CENy8b" role="img" style="width: 100.0000022528%; margin: -0% 0 -0% -0.0000011264%">
+      <div class="overlay">
+        <h3>DavidJoseph Tanedo</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/davidjosephtanedo/home">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>Brian Tanon</h3>
+        <a href="#">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh4.googleusercontent.com/Eujlu0pq94KWkjfpVS4y2L4mpQ9L5nHZ1O5RIiMiQDA86sCtsv6W13oXbWmmi7Za49YJcnnMlCxKV1YfgoJaSaE=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>Jomel Toling</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/jomeltoling?usp=sharing">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh3.googleusercontent.com/qaIDc0Sm0nQW9u0MqSzMjbVqeEmFwmMp-MN69xNfI7odv8Rkv9jLcU2LYNzxSz11Wez6572qCqxVZPMmAe_lUA0UInKwp5UwT4aEzSKFiEKBuJVHyx31HdiMmaARnP4Jgw=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>MarkLaurence Turla</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/int-comp-portfolio">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh6.googleusercontent.com/oTqCyCGFirjRen-rrcIHe3FEFooj4miLJZF4wF-9j3TiqaXc-qmPPZMJtP45rRA2eE8szZVHeVm0nTu868AyPgpBxvVsQD8hsc5zWKj4SMa4bSxUbdxnyhuaK5ngQuQ27g=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>AirahMae Udan</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/udanairahmae1?usp=sharing">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>Jhonny Utom</h3>
+        <a href="#">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh3.googleusercontent.com/wkd2XgRRgU93XJNW2nuUbQ_abeOKybBZjnEja4JwMYWv9x-3P3XR9svsD7pfa6Ox0nfmxgL47x4kKgvdGTpiYZ1wOIUPfsLYjP80Sns-p2sElpJ1sD3oEH7isjVAhLQNpg=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>AdrianLouise Valenzuela</h3>
+        <a href="https://sites.google.com/view/valenzuela-adrian-porfolio/home">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh3.googleusercontent.com/sPc28JOYh1hClgwth7v6fHLbDvE-Ol1CY25_Jow8AXLgJsPTPc1fJOtB42mKCNkxfNruRjNfnFQau6JngPJ3To9oFNRAh6bZgAENLABf5CHywPr8AwM_xsPaXhDvXbO9IA=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>Kristine Velano</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/velanokristineborlado/home">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>AllenZhanne Venezuela</h3>
+        <a href="#">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>Jessa Villafranca</h3>
+        <a href="#">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>Dewey Villanea</h3>
+        <a href="#">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>Jhonriel Villapa</h3>
+        <a href="#">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://lh6.googleusercontent.com/MhTattW2iZbUXQGWR7g7SuN58IP7YWikkSF9LzGaM2ji-OhC7yUa_tbnqNJmSaz66Eiog84-Epk9np-2jx3yQAk=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>Rovic Viloria</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/viloriadigitalportfolio/home?authuser=0">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+     <img src="https://placehold.co/400x500">
+      <div class="overlay">
+        <h3>EdwinJr Vinalon</h3>
+        <a href="#">Visit Page</a>
+      </div>
+    </div>
+
+<div class="image-column">
+    <img src="https://lh5.googleusercontent.com/HQhSacNrJXO4K0kdSUSYDRKphm4_YI4jQekoZxmzYE_6ckiuOE_01GWCrTo-Dv8o5Qu4pfuuFvls2TZcJzL3EcMI7vCxquYTxANmgjf8hhjhOlqz0QV5xZ0MUDa5upJ7bQ=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>CharlesVincent Vivo(BACKGROUND IMAGE ONLY)</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/charlesvincentcvivo?usp=sharing">Visit Page</a>
+      </div>
+    </div>
+
+
+<div class="image-column">
+     <img src="https://lh6.googleusercontent.com/vSpqSdwFnmKzEtybl0MysWF39j6Oo8d71vllP6btrCztqVnU9R9uVTxfyn0lqN20JuszzrBkr6HLHUEYc6SC-zmSBplZhASL9n2gk7vsr_vi6aQr8JFz5ytDeCLUMG7J2A=w1280" class="CENy8b" role="img">
+      <div class="overlay">
+        <h3>Wish Zaragoza</h3>
+        <a href="https://sites.google.com/plmun.edu.ph/wishzaragoza123/home">Visit Page</a>
+      </div>
+    </div>
+  </div>
+<footer style="color:#ffffff; text-align: center; margin-top: 10px; padding: 3px; background-color: #1c1c1c;">
+  <p>Compiled by Mr. Hubert I. Caguiat - IT Instructor</p>
+</footer>
+
+</body>
+</html>
